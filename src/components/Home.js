@@ -5,7 +5,6 @@ import './style.css';
 import Book from './Books';
 import Data from './data.json';
 import Footer from './footer.js';
-//import Mode from './Mode';
 
 export default function Home() {
 
@@ -30,7 +29,7 @@ export default function Home() {
         <>
         <div className="main">
             <div className="headerbar">
-            <h1 className="logo">Digital Library...</h1>
+            <h1 className="logo">BOOK STORE</h1>
             <Bookcatagory/>
             <Search/>
             {/* <Mode/> */}

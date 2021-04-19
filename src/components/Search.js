@@ -3,12 +3,17 @@ import Data from './data.json';
 import './style.css';
 
 export default function Search() {
-    let listarra=[];
+    const mystyle = {
+
+        backgroundColor: "DodgerBlue",
+        padding: "10px",
+        fontFamily: "Arial"
+      };
     return (
         <>
         <div className="searchbar" >
-            <input className='search' type="text" placeholder="Search..." />
-            <button className="inputbtn" type='submit'>search</button>
+            <input style={mystyle} className='search' type="text" placeholder="Search..." />
+            <button style={mystyle} className="inputbtn" type='submit'>search</button>
             {
               Data.map((val)=>{
                   return <div className='booktitle'>

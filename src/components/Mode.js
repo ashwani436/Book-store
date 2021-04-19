@@ -12,7 +12,8 @@ export default function Mode() {
         document.getElementsByClassName("bookhome").innerHTML.style.backgroundColor='black';
            colors=setColor("black");
            
-       }else{
+       }
+       else{
         document.getElementsByClassName("bookhome").innerHTML.style.backgroundColor='black';
            colors=setColor("white");
        }
