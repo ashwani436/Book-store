@@ -4,16 +4,18 @@ import './style.css';
 
 export default function Search() {
     const mystyle = {
-
-        backgroundColor: "DodgerBlue",
         padding: "10px",
-        fontFamily: "Arial"
+        fontFamily: "Arial",
+        screenTop:"10px",
+       TextDecoder:"10px",
+        height:"10px",
+       
       };
     return (
         <>
         <div className="searchbar" >
             <input style={mystyle} className='search' type="text" placeholder="Search..." />
-            <button style={mystyle} className="inputbtn" type='submit'>search</button>
+            <button className="inputbtn" type='submit'>search</button>
             {
               Data.map((val)=>{
                   return <div className='booktitle'>
